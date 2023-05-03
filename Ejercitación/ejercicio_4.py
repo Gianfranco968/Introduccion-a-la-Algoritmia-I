@@ -22,6 +22,8 @@ def divisores_b():
     print("\n""La suma de resto es:",suma_resto_b)
     if suma_resto_a == suma_resto_b:
         print("\n""Los numeros:",a,"y",b,"son amigos")
+    else:
+        print("\n""Los numeros:",a,"y",b," no son amigos")
 divisores_b()
                       
             

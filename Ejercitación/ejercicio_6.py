@@ -7,7 +7,7 @@ def raiz_exacta():
     a = 1
     b = 1
     posicion = 0
-    for i in range (2,50):
+    for i in range (0,50):
         c = a+b
         posicion += 1
         a = b

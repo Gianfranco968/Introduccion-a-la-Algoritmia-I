@@ -18,10 +18,10 @@ def fibonacci():
     resultado = 0
     suma = 0
     posicion = 0
-    for i in range(2,30):
+    for i in range(0,30):
         c = a+b
-        print(c, end= " ")
         posicion += 1
+        print(c, end= " ")
         if posicion >= 3 and posicion <= 30:
             resultado = es_primo(c)
             if resultado == 1:

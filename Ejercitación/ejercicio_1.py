@@ -5,11 +5,13 @@ Mostrarlos juntos con su posición"""
 def fibonacci():
     a = 1
     b = 1
-    for i in range(2,40):
-        suma_posiciones = a+b
+    posicion = 0
+    for i in range(0,40):
+        c = a+b
+        posicion += 1
         a = b
-        b = suma_posiciones
-        if i >= 12 and i <= 30:
-            if suma_posiciones % 3 == 0:
-                print(suma_posiciones, end= " ")
+        b = c
+        if posicion >= 12 and posicion <= 30:
+            if c % 3 == 0:
+                print("Posicion:",posicion,"Número:",c)
 fibonacci()
