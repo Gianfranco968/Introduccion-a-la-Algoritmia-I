@@ -15,7 +15,7 @@ Se solicita:
 
 Número primo: Número divisible solamente por 1 y por si mismo. Ej 5
 """
-"""
+
 def es_primo(numero):
     div = 1
     contdiv = 0
@@ -73,7 +73,7 @@ def operaciones():
 operaciones()
 
 print("\n")
-"""
+
 """
 EJERCICIO 2
 Cargar una lista con 30 valores, generados aleatoriamente y que no se repitan, comprendidos entre 1 y 70.
